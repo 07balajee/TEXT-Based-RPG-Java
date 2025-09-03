@@ -1,18 +1,15 @@
-# ATM-Simulation-Java
-A Beginner Friendly Java Project for ATM simulation
-Description:
-A console-based Java application simulating core ATM functionalities: PIN verification, balance checking, deposit, withdrawal, PIN change, mini statement, and exit. Designed to demonstrate object-oriented programming (encapsulation, abstraction), exception handling, and transaction management for a single-user banking system. Ideal for students and developers learning Java and banking logic.
+Text-Based Adventure Game
 
-Features:
-Secure PIN verification with 3 attempts.
-Check account balance.
-Deposit and withdraw funds with input validation.
-Change PIN securely.
-View mini statement of recent transactions.
-User-friendly text-based menu with exit option.
+A Beginner Friendly Java Project for Text-Based RPG Simulation
 
-Objectives:
-Showcase OOP principles like encapsulation (private fields for balance, PIN) and abstraction (simplified method interfaces).
-Implement robust exception handling for invalid inputs.
-Simulate real-world ATM operations for educational purposes.
+Description
 
+A console-based Java application simulating a text-based adventure game where players explore a dungeon, battle enemies like goblins, collect items such as potions, manage inventory, and aim to reach the exit using commands (e.g., "move", "fight"). Designed to illustrate object-oriented programming (encapsulation, abstraction), exception handling, and game logic for a single-player RPG. Perfect for students and developers learning Java and game development fundamentals.
+
+Features
+
+Dynamic dungeon exploration with directional moves. Combat system with enemy battles and health tracking. Item collection (e.g., potions) and inventory management. Use items to heal or enhance abilities. Interactive text-based menu with clear commands. Game over condition on health depletion or exit.
+
+Objectives
+
+Demonstrate OOP principles like encapsulation (private health, inventory) and abstraction (simplified command interfaces). Incorporate exception handling for invalid inputs. Simulate RPG mechanics for educational and entertainment purposes.
