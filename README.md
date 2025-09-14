@@ -13,3 +13,19 @@ Dynamic dungeon exploration with directional moves. Combat system with enemy bat
 Objectives
 
 Demonstrate OOP principles like encapsulation (private health, inventory) and abstraction (simplified command interfaces). Incorporate exception handling for invalid inputs. Simulate RPG mechanics for educational and entertainment purposes.
+
+🎮 Features
+
+👤 Player System – Health, damage, score, and inventory tracking.
+
+🗡️ Items & Loot – Potions, swords, and shields that can be collected and used.
+
+👹 Enemies – Fight orcs, goblins, and more with turn-based combat.
+
+🗺️ Dungeon Map – Navigate between different rooms with directions.
+
+⚔️ Combat System – Attack enemies, equip items, and survive battles.
+
+🎲 Random Events – Loot drops and enemy spawns are randomized for replayability.
+
+📜 Score Tracking – Earn points by defeating enemies.
