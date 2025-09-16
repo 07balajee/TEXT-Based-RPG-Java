@@ -1,11 +1,18 @@
 @echo off
-REM Check if the .class file already exists in the out folder
+REM filepath: e:\3rd Sem\Java\TEXT-Based-RPG-Java\run.bat
+REM Check if the .class files already exist in the out folder
 IF EXIST "out\model\CharacterBase.class" (
     echo CharacterBase.class already compiled.
 ) ELSE (
-    REM Create output directory if it doesn't exist
     if not exist "out\model" mkdir "out\model"
-    REM Compile the Java file only if .class does not exist
     javac -d out src/model/CharacterBase.java
-    echo Compilation complete.
+    echo CharacterBase.class compilation complete.
+)
+
+IF EXIST "out\model\Item.class" (
+    echo Item.class already compiled.
+) ELSE (
+    if not exist "out\model" mkdir "out\model"
+    javac -d out src/model/Item.java
+    echo Item.class compilation complete.
 )
