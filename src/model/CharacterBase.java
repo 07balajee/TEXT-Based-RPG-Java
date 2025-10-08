@@ -27,7 +27,7 @@ public abstract class CharacterBase implements Serializable {
     public String getName() { return name; }
     public int getHealth() { return health; }
 
-    @Override
+    //@Override
     public String toString() {
         return name + " [HP:" + health + " ATK:" + attack + " DEF:" + defense + "]";
     }
